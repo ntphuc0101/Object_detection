@@ -13,4 +13,8 @@ The another one is the predicted bounding box generated from our model.
 ##Unit Test plays a great role of software development since we cannot know what the quality of software is. Therefore, we need to use Unittest do make sure that our code does correctly. 
 In this project, I write a class of Unittest to check a method of BB class, which is the result of Intersection over Union metric.
 
+Reference:
+        https://medium.com/swlh/unit-testing-best-practices-853064ad3551
+        https://medium.com/analytics-vidhya/iou-intersection-over-union-705a39e7acef#:~:text=IOU(Intersection%20over%20Union)%20is,fits%20perfectly%20around%20an%20object.
+
 
