@@ -8,7 +8,7 @@ class BB:
         xA = max(self.B1[0], B2[0])
         xB = max(self.B1[1], B2[1])
         wA = min(self.B1[2], B2[2])
-        hB = min(self.B1[2], B2[2])
+        hB = min(self.B1[3], B2[3])
         interSec = max(wA - xA, 0) * max(hB - xB, 0)
         A = (self.B1[2] - self.B1[0]) * (self.B1[3] - self.B1[1])
         B = (B2[2] - B2[0]) * (B2[3] - B2[1])
