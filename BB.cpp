@@ -44,7 +44,7 @@ class BB
         interSec = max(wA - xA, 0) * max(hB - xB, 0);
  
       //////////////////////////////////////////////////////////////////////
-    // Calculate A and B
+    // Calculate the area of A and B
    // 
   ///////////////////////////////////////////////////////////////////////
         A = (BB_arr[2] - BB_arr[0]) * (BB_arr[3] - BB_arr[1]);
